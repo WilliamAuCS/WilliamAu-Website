@@ -8,7 +8,7 @@ class Home extends Component {
         return (
             <div>
                 <Navbar />
-                <Jumbotron title="Welcome" subtitle="Put something whitty here!" />
+                <Jumbotron title="Welcome" subtitle="Bachelor of Science, Computer Science" />
                 <div className="container">
                     <h2>Welcome</h2>
                         <p>
