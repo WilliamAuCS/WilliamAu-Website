@@ -1,0 +1,7 @@
+.bio {
+    border: 2px solid red;
+    width: 1000px;
+    position: absolute;
+    left: 25%;
+    top: 45%;
+}
