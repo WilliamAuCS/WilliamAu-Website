@@ -3,13 +3,13 @@
     background-repeat: no-repeat;
     background-size: 100%;
     width: 200px;
-    height: 350px;
-    border: 2px solid blue;
+    height: 270px;
     display: inline-block;
     vertical-align: top;
     text-align: center;
 }
 .info {
     border: 2px solid black;
-    display: block;
+    text-align: center;
+    width: 200px;
 }
