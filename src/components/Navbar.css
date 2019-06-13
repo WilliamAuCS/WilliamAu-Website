@@ -1,8 +1,11 @@
 .navbar-brand {
-    color: #333;
+    color: #aaa;
 }
 
 a {
     color: #aaa;
     font-weight: 200;
+}
+.navbar {
+    background-color: rgb(26, 24, 24);
 }

@@ -11,6 +11,7 @@ class Home extends Component {
             <div>
                 <Navbar />
                 <Jumbotron title="Welcome" subtitle="Bachelor of Science, Computer Science" />
+                <div className="background">
                 <SideBar />
                 <div className="bio">
                     <p>
@@ -19,6 +20,7 @@ class Home extends Component {
                         and see if it is something I might consider doing in the future. I currently enjoy back-end developing more, however I believe experience in both fields is
                         crutial for a programmer to be at the best of his ability, and provide the best service for his employer.
                     </p>
+                </div>
                 </div>
                 <Footer />
             </div>

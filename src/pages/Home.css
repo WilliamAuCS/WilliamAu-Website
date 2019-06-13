@@ -4,4 +4,12 @@
     position: absolute;
     left: 20%;
     top: 45%;
+    color: white;
+}
+.background {
+    background-image: url("../images/portfolio background.jpg");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid green;
 }

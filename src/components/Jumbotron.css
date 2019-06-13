@@ -2,7 +2,17 @@
     background-image: url(../images/WebsiteCodeRotate.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 110% auto;
+    background-size: 120% auto;
     color: white;
+    margin-top: 0px;
     margin-bottom: 0px;
+    height: 200px;
+}
+.Header {
+    display: block;
+    position: relative;
+    color: white;
+    bottom: 40px;
+    left: 200px;
+    width: 80%;
 }
