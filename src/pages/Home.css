@@ -8,8 +8,11 @@
 }
 .background {
     background-image: url("../images/portfolio background.jpg");
-    height: 500px;
+
+    background-position: center;
+    height: 100%;
+    width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
-    border: 2px solid green;
+    position: absolute;
 }

@@ -1,5 +1,5 @@
 .jumbotron {
-    background-image: url(../images/WebsiteCodeRotate.png);
+    background-image: url(../images/WebsiteCodeRotate1.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 120% auto;
@@ -7,10 +7,12 @@
     margin-top: 0px;
     margin-bottom: 0px;
     height: 200px;
+    position: absolute;
+    width: 100%;
 }
 .Header {
     display: block;
-    position: relative;
+    position: absolute;
     color: white;
     bottom: 40px;
     left: 200px;

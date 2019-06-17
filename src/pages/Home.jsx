@@ -9,9 +9,9 @@ class Home extends Component {
     render() {
         return (
             <div>
+                <div className="background">
                 <Navbar />
                 <Jumbotron title="Welcome" subtitle="Bachelor of Science, Computer Science" />
-                <div className="background">
                 <SideBar />
                 <div className="bio">
                     <p>
