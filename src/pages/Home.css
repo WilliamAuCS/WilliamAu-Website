@@ -1,18 +1,21 @@
 .bio {
     border: 2px solid red;
-    width: 1000px;
-    position: absolute;
-    left: 20%;
-    top: 45%;
+    max-width: 960px;
+    padding-right: 10px;
+    padding-left: 10px;
+    position: relative;
     color: white;
+    top: -350px;
+    left: 20%;
+    margin-right: 10%;
 }
 .background {
     background-image: url("../images/portfolio background.jpg");
-
     background-position: center;
     height: 100%;
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
-    position: absolute;
+    position: relative;
+    border: 2px solid blue;
 }

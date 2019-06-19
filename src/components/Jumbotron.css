@@ -2,17 +2,16 @@
     background-image: url(../images/WebsiteCodeRotate1.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 120% auto;
+    background-size: 120%;
     color: white;
-    margin-top: 0px;
-    margin-bottom: 0px;
     height: 200px;
-    position: absolute;
+    position: static;
     width: 100%;
+    border: 2px solid green;
 }
 .Header {
     display: block;
-    position: absolute;
+    position: relative;
     color: white;
     bottom: 40px;
     left: 200px;
