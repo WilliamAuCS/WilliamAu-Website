@@ -1,3 +1,6 @@
+.sidebar {
+    margin-left: 20px;
+}
 .pic {
     background-image: url(..\images\portrait.png);
     background-repeat: no-repeat;
@@ -8,15 +11,19 @@
     vertical-align: top;
     text-align: center;
     position: static;
-
-    border: 2px solid yellow;
 }
-
+@media screen and (max-width: 580px)
+{
+    .sidebar {
+        display: none;
+    }
+}
 .info {
-    border: 2px solid green;
     text-align: center;
     width: 200px;
     color: white;
-    position: inherit;
-    top: 200px;
+    position: relative;
+    top: 0px;
+    border: 2px solid black;
+    padding: 5px;
 }
