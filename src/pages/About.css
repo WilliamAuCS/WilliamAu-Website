@@ -1,16 +1,17 @@
-.bio {
+.aboutMe {
     max-width: 960px;
     padding-right: 10px;
     padding-left: 10px;
     position: static;
     color: white;
-    top: 0px;
     left: 0px;
+    top: 100px;
     margin-left: auto;
     margin-right: auto;
+    border: 2px solid yellow;
     display: block;
 }
-.background {
+.aboutBackground {
     background-image: url("../images/portfolio background.jpg");
     background-position: center;
     height: 100%;
@@ -19,16 +20,26 @@
     background-size: cover;
     position: absolute;
 }
-.cushBar {
+.aboutSideBar {
+    border: 2px solid green;
+    height: 200px;
+    width: 200px;
+    margin-right: 0px;
+    margin-left: 0px;
+    float: left;
+    color: white;
+}
+.aboutCushBar {
 
     display: block;
-    width: 100px;
+    border: 2px solid green;
+    width: 80px;
     height: 500px;
     float: left;
 }
 @media screen and (max-width: 780px)
 {
-    .cushBar {
+    .aboutCushBar {
         display: none;
     }
 }

@@ -1,5 +1,6 @@
 .sidebar {
     margin-left: 20px;
+    float: left;
 }
 .pic {
     background-image: url(..\images\portrait.png);
@@ -12,7 +13,7 @@
     text-align: center;
     position: static;
 }
-@media screen and (max-width: 580px)
+@media screen and (max-width: 780px)
 {
     .sidebar {
         display: none;

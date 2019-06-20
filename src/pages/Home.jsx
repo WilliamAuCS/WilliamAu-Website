@@ -13,6 +13,7 @@ class Home extends Component {
                 <Navbar />
                 <Jumbotron title="Welcome" subtitle="Bachelor of Science, Computer Science" />
                 <SideBar />
+                <div className="cushBar"> </div>
                 <div className="bio">
                     <p>
                         <h2>Welcome</h2>
