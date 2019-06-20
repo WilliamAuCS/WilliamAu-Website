@@ -6,7 +6,7 @@
     color: white;
     height: 200px;
     position: static;
-    width: 100%;
+    min-width: 1510px;
 }
 .Header {
     display: block;

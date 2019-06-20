@@ -11,7 +11,7 @@ class Home extends Component {
             <div>
                 <div className="background">
                 <Navbar />
-                <Jumbotron title="Welcome" subtitle="Bachelor of Science, Computer Science" />
+                <Jumbotron title="William Au" subtitle="Bachelor of Science, Computer Science" />
                 <SideBar />
                 <div className="cushBar"> </div>
                 <div className="bio">
