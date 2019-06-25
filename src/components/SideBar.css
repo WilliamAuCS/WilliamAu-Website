@@ -5,9 +5,10 @@
 .pic {
     background-image: url(..\images\portrait.png);
     background-repeat: no-repeat;
-    background-size: 100%;
-    width: 200px;
-    height: 270px;
+    background-size: 120%;
+    background-position: center;
+    width: 220px;
+    height: 280px;
     display: inline-block;
     vertical-align: top;
     text-align: center;
@@ -21,10 +22,13 @@
 }
 .info {
     text-align: center;
-    width: 200px;
+    width: 220px;
     color: white;
     position: relative;
     top: 0px;
     border: 2px solid black;
     padding: 5px;
+}
+.degrees {
+    text-align: left;
 }

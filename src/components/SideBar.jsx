@@ -8,9 +8,13 @@ class SideBar extends Component {
                 <a className="pic" a/>
                 <div className="info">
                     <h3>William Au</h3>
-                    <br /> <br />
-                    <p>
-                        Write stuff or links here idk yet im just trying to survive here
+                    <br />
+                    <h5>Golden West College</h5>
+                    <p className="degrees">
+                        AA - Comp Sci & Technology <br/>
+                        AA - Mathematics <br />
+                        AA - Arts & Humanites <br />
+                        AA - Elem Education <br />
                     </p>
                 </div>
             </div>

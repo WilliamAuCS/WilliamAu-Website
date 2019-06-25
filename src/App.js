@@ -4,7 +4,7 @@ import './App.css';
 
 
 import Home from './pages/Home.jsx';
-import About from './pages/About.jsx';
+import Projects from './pages/Projects.jsx';
 import Contact from './pages/Contact.jsx';
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
     <Router>
       <div>
         <Route exact path="/" component={Home}/>
-        <Route path="/about" component={About}/>
+        <Route path="/Projects" component={Projects}/>
         <Route path="/contact" component={Contact}/>
       </div>
 

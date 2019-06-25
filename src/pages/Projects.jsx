@@ -2,24 +2,24 @@ import React, { Component } from 'react';
 import Navbar from '../components/Navbar.jsx';
 import Footer from '../components/Footer.jsx';
 import Jumbotron from '../components/Jumbotron.jsx';
-import './About.css';
+import './Projects.css';
 
-class About extends Component {
+class Projects extends Component {
     render() {
         return (
             <div>
-                <div className="aboutBackground">
+                <div className="projectBackground">
                 <Navbar />
-                <Jumbotron title="About" subtitle="Who am I?" />
-                <div className="aboutSideBar">
+                <Jumbotron title="My Projects" subtitle="Independent Projects" />
+                <div className="projectSideBar">
                     <p>
-                        This is there the side bar will go for the about page
+                        This is there the side bar will go for the project page
                     </p>
                 </div>
-                <div className="aboutCushBar"> </div>
-                <div className="aboutMe">
+                <div className="projectCushBar"> </div>
+                <div className="projectMe">
                     <p>
-                        <h2>About</h2>
+                        <h2>Projects</h2>
                         This area is filled with random text I am currently writing on the spot. Hopefully this tutorial goes well so I can get experience being a front-end developer
                         and see if it is something I might consider doing in the future. I currently enjoy back-end developing more, however I believe experience in both fields is
                         crutial for a programmer to be at the best of his ability, and provide the best service for his employer.
@@ -32,4 +32,4 @@ class About extends Component {
     }
 }
 
-export default About
+export default Projects

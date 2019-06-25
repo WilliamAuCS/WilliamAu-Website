@@ -1,4 +1,4 @@
-.aboutMe {
+.projectMe {
     max-width: 960px;
     padding-right: 10px;
     padding-left: 10px;
@@ -11,7 +11,7 @@
     border: 2px solid yellow;
     display: block;
 }
-.aboutBackground {
+.projectBackground {
     background-image: url("../images/portfolio background.jpg");
     background-position: center;
     height: 100%;
@@ -20,7 +20,7 @@
     background-size: cover;
     position: absolute;
 }
-.aboutSideBar {
+.projectSideBar {
     border: 2px solid green;
     height: 200px;
     width: 200px;
@@ -29,7 +29,7 @@
     float: left;
     color: white;
 }
-.aboutCushBar {
+.projectCushBar {
 
     display: block;
     border: 2px solid green;
@@ -39,7 +39,7 @@
 }
 @media screen and (max-width: 780px)
 {
-    .aboutCushBar {
+    .projectCushBar {
         display: none;
     }
 }

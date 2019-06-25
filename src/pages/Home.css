@@ -13,11 +13,12 @@
 .background {
     background-image: url("../images/portfolio background.jpg");
     background-position: center;
-    height: 100%;
+    height: auto;
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
+    margin-bottom: 60px;
 }
 .cushBar {
 
