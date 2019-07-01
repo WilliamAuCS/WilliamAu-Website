@@ -1,0 +1,26 @@
+All:
+Change header font
+Turn link word color to white
+
+Home:
+Add resume link
+Complete Bio
+Change profile picture
+Resize degree box to fit picture
+Fix resizing background issue
+
+Projects:
+Add projects w/ link
+Add a picture to the project
+Add short description (few sentences) to project
+Add individual project page w/ more pictures and larger description
+
+Contact: 
+Fix background
+Add contact information
+
+Mysteria:
+Add content
+
+Cube Runner: 
+Add content

@@ -1,15 +1,42 @@
-.projectOverview {
+.projects {
     max-width: 960px;
     padding-right: 10px;
     padding-left: 10px;
     position: static;
     color: white;
-    float: left;
+    left: 0px;
     top: 100px;
     margin-left: auto;
     margin-right: auto;
-    border: 2px solid yellow;
     display: block;
+}
+.overview {
+    text-align: left;
+}
+.project1 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.project2 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#project1Image {
+    margin-top: 185px;
+    background-image: url("../images/Mysteria1.PNG");
+    background-size: 200px;
+    display: block;
+    height: 200px;
+    width: 200px;
+    color: black;
+}
+#project2Image {
+    background-image: url("../images/object_cube.png");
+    background-size: 200px;
+    display: block;
+    height: 200px;
+    width: 200px;
+    color: black;
 }
 .projectBackground {
     background-image: url("../images/portfolio background.jpg");
@@ -23,17 +50,17 @@
 }
 .projectSideBar {
     border: 2px solid green;
-    height: 200px;
+    height: 800px;
     width: 200px;
     margin-right: 0px;
     margin-left: 0px;
     float: left;
     color: white;
+    text-align: center;
 }
 .projectCushBar {
     position: static;
     display: block;
-    border: 2px solid green;
     width: 100px;
     height: 500px;
     float: left;
