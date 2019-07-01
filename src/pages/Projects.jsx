@@ -17,12 +17,14 @@ class Projects extends Component {
                     </p>
                 </div>
                 <div className="projectCushBar"> </div>
-                <div className="projectMe">
+                <div className="projectOverview">
                     <p>
                         <h2>Projects</h2>
-                        This area is filled with random text I am currently writing on the spot. Hopefully this tutorial goes well so I can get experience being a front-end developer
-                        and see if it is something I might consider doing in the future. I currently enjoy back-end developing more, however I believe experience in both fields is
-                        crutial for a programmer to be at the best of his ability, and provide the best service for his employer.
+                        The projects listed below are projects completed independently from my course work. Many are projects completed
+                        in a team of two or more programmers, however there are also many completed myself. Below each project is a brief
+                        description, including a screenshot of the actual project. If you wish to learn more, you may click on the project
+                        name and a more in-depth explanation will be given. <br />
+                        (If you are not redirected, the page is probably still in progress and will be up soon!)
                         </p>
                 </div>
                 </div>

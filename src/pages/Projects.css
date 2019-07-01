@@ -1,10 +1,10 @@
-.projectMe {
+.projectOverview {
     max-width: 960px;
     padding-right: 10px;
     padding-left: 10px;
     position: static;
     color: white;
-    left: 0px;
+    float: left;
     top: 100px;
     margin-left: auto;
     margin-right: auto;
@@ -14,11 +14,12 @@
 .projectBackground {
     background-image: url("../images/portfolio background.jpg");
     background-position: center;
-    height: 100%;
+    height: auto;
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
+    margin-bottom: 60px;
 }
 .projectSideBar {
     border: 2px solid green;
@@ -30,10 +31,10 @@
     color: white;
 }
 .projectCushBar {
-
+    position: static;
     display: block;
     border: 2px solid green;
-    width: 80px;
+    width: 100px;
     height: 500px;
     float: left;
 }
