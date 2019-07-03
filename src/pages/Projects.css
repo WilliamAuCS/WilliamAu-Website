@@ -1,4 +1,4 @@
-.projects {
+.container {
     max-width: 960px;
     padding-right: 10px;
     padding-left: 10px;
@@ -9,34 +9,29 @@
     margin-left: auto;
     margin-right: auto;
     display: block;
+    float: center;
 }
 .overview {
     text-align: left;
+    border: 2px solid yellow;
+    float: left;
+    padding: 10px;
+}
+.projectList {
+    border: 2px solid orange;
+    max-width: 725px;
 }
 .project1 {
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 10px;
 }
 .project2 {
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 10px;
 }
-#project1Image {
-    margin-top: 185px;
-    background-image: url("../images/Mysteria1.PNG");
-    background-size: 200px;
-    display: block;
-    height: 200px;
-    width: 200px;
-    color: black;
-}
-#project2Image {
-    background-image: url("../images/object_cube.png");
-    background-size: 200px;
-    display: block;
-    height: 200px;
-    width: 200px;
-    color: black;
+.project3 {
+    padding-top: 50px;
+    padding-bottom: 10px;
 }
 .projectBackground {
     background-image: url("../images/portfolio background.jpg");
@@ -52,17 +47,9 @@
     border: 2px solid green;
     height: 800px;
     width: 200px;
-    margin-right: 0px;
-    margin-left: 0px;
-    float: left;
     color: white;
     text-align: center;
-}
-.projectCushBar {
-    position: static;
-    display: block;
-    width: 100px;
-    height: 800px;
+    padding-right: 210px;
     float: left;
 }
 @media screen and (max-width: 780px)
