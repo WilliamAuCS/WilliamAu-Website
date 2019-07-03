@@ -1,5 +1,5 @@
 .container {
-    max-width: 960px;
+    max-width: 860px;
     padding-right: 10px;
     padding-left: 10px;
     position: static;
@@ -13,25 +13,24 @@
 }
 .overview {
     text-align: left;
-    border: 2px solid yellow;
     float: left;
     padding: 10px;
+    display: block;
+    text-align: justify;
+}
+#picPadding {
+    margin-right: 30px;
 }
 .projectList {
-    border: 2px solid orange;
-    max-width: 725px;
+    max-width: auto;
+    height: auto;
 }
-.project1 {
-    padding-top: 50px;
+.projectFormat {
+    padding-top: 10px;
     padding-bottom: 10px;
-}
-.project2 {
-    padding-top: 50px;
-    padding-bottom: 10px;
-}
-.project3 {
-    padding-top: 50px;
-    padding-bottom: 10px;
+    border: thin transparent solid;
+    overflow: auto;
+    text-align: justify;
 }
 .projectBackground {
     background-image: url("../images/portfolio background.jpg");
