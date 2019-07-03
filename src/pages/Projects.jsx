@@ -25,7 +25,7 @@ class Projects extends Component {
 
                             <div className="projectFormat">
                                 <img id="picPadding" src={require('../images/Mysteria1.PNG')} height="200" width="200" alt="Mysteria"
-                                    title="Example picture of my in progress Mysteria RPG game" align="left" />
+                                    title="Picture of my in progress Mysteria RPG game" align="left" />
                                 <p>
                                     <Link to="/mysteria"><h2>Mysteria</h2></Link>
 
@@ -36,7 +36,7 @@ class Projects extends Component {
 
                             <div className="projectFormat">
                                 <img id="picPadding" src={require('../images/object_cube.png')} height="200" width="200" alt="Cube Runner"
-                                    title="Example picture of my first completed game" align="left" />
+                                    title="Picture of my first completed game" align="left" />
                                 <p>
                                     <Link to="/cuberunner"><h2>Cube Runner</h2></Link>
 
