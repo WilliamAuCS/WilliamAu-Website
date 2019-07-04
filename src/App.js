@@ -15,9 +15,9 @@ function App() {
       <div>
         <Route exact path="/" component={Home}/>
         <Route path="/Projects" component={Projects}/>
-        <Route path="/contact" component={Contact}/>
-        <Route path="/mysteria" component={Mysteria}/>
-        <Route path="/cuberunner" component={CubeRunner}/>
+        <Route path="/Contact" component={Contact}/>
+        <Route path="/Mysteria" component={Mysteria}/>
+        <Route path="/Cuberunner" component={CubeRunner}/>
       </div>
 
     </Router>

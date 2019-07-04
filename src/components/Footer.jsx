@@ -5,7 +5,7 @@ class Footer extends Component {
     render() {
         return (
             <footer className="footer">
-                <div className="container">
+                <div className="botRight">
                     <span className="text-muted">William Au &#169; {new Date().getFullYear()} </span>
                 </div>
             </footer>

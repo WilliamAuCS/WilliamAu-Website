@@ -27,34 +27,38 @@ class Projects extends Component {
                                 <img id="picPadding" src={require('../images/Mysteria1.PNG')} height="200" width="200" alt="Mysteria"
                                     title="Picture of my in progress Mysteria RPG game" align="left" />
                                 <p>
-                                    <Link to="/mysteria"><h2>Mysteria</h2></Link>
+                                    <Link to="/Mysteria"><h2>Mysteria</h2></Link>
 
                                     This project was my first major game created using the Unity Engine. This game is an RPG style, tile based game
                                     allowing the player to make decisions that will help progress the storyline, as well as make NPC friends.
-                                    </p>
+                                    <br /><br />
+                                    <a href="https://github.com/WilliamAuCS/Mysteria" target="_blank"> GitHub </a>
+                                </p>
                             </div>
 
                             <div className="projectFormat">
                                 <img id="picPadding" src={require('../images/object_cube.png')} height="200" width="200" alt="Cube Runner"
                                     title="Picture of my first completed game" align="left" />
                                 <p>
-                                    <Link to="/cuberunner"><h2>Cube Runner</h2></Link>
+                                    <Link to="/Cuberunner"><h2>Cube Runner</h2></Link>
 
                                     This was my first Unity project. Starting off, I used many tutorials learning how to utilize the Unity rigid body
                                     system and implimenting physics. The game is playable with multiple complete levels, challenging even the best players.
-                                    </p>
+                                </p>
                             </div>
 
                             <div className="projectFormat">
                                 <img id="picPadding" src={require('../images/react-logo.png')} height="200" width="200" alt="My Website"
                                     title="I used the JavaScript library React to complete this website" align="left" />
                                 <p>
-                                    <Link to="/myWebsite"><h2>This Website</h2></Link>
+                                    <Link to="/MyWebsite"><h2>This Website</h2></Link>
 
                                     This is the website you are currently looking at. I created this website using the JavaScript React library. Creating
                                     this website was a challenge at first, for it was the first time experience the front-end of programming, however the
                                     concept quickly became familiar. This website will continue to be in development as I learn more about the React library.
-                                    </p>
+                                    <br /><br />
+                                    <a href="https://github.com/WilliamAuCS/WilliamAu-Website" target="_blank"> GitHub </a>
+                                </p>
                             </div>
                         </div>
                     </div>

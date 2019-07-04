@@ -8,4 +8,19 @@ a {
 }
 .navbar {
     background-color: #333;
+    display: block;
+    width: auto;
+}
+.navContainer {
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    width: 300px;
+    height: auto;
+    text-align: center;
+    float: right;
+}
+.nav-link {
+    display: inline-block;
+    padding-right: 5px;
 }
