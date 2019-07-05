@@ -10,7 +10,7 @@ class Contact extends Component {
             <div>
                 <div className="contactBackground">
                     <Navbar />
-                    <Jumbotron title="Contact" subtitle="put contact information here!" />
+                    <Jumbotron title="Contact" subtitle="Feel free to contact me!" />
                     <div className="contact">
                         <h2>Contact</h2>
                         <p>

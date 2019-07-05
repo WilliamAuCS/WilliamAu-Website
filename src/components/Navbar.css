@@ -1,5 +1,7 @@
 .navbar-brand {
     color: #aaa;
+    left: 150px;
+    margin-left: 100px;
 }
 
 a {
