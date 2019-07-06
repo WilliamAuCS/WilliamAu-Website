@@ -4,7 +4,6 @@ Turn link word color to white
 Make sure it works on all size displays
 
 Home:
-Add resume link
 Complete Bio
 Change profile picture
 Resize degree box to fit picture
@@ -18,7 +17,7 @@ Contact:
 Review
 
 Mysteria:
-Add content
+Review
 
 Cube Runner: 
-Add content
+Add description
