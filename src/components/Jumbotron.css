@@ -1,12 +1,15 @@
+.topImage {
+    height: 100%;
+}
 .jumbotron {
     background-image: url(../images/WebsiteCodeRotate1.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 120%;
+    background-size: 100%;
     color: white;
     height: 200px;
+    min-width: 100%;
     position: static;
-    min-width: 1510px;
 }
 .Header {
     display: block;

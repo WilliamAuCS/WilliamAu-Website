@@ -42,15 +42,16 @@ class CubeRunner extends Component {
                             of UI creation, such as creating simple Menu screens and even an Options menu, allowing the payer to configure the system
                             from within the game. 
                             <br /><br />
-                            To write the scripts in this project, I used C# within Visual Studios. I decided to use this language because, although
-                            it was my first time learning it, and I did have more experience in the other option, Java, I wanted to experience a
-                            new language and see how it felt, expecially because many of my friends favorite langague is C#. I also have a large
-                            amount of experience in C++, so I was hoping it was very similar.
+                            Cube Runner consists of a 3 dimentional block accelerating at a constant rate, requiring the player to position the block 
+                            left or right to avoid hitting the walls. I used Unity events to register collisions, having the player restart the level from
+                            the beginning. The player is also able to see their progress within the level by looking at the incrimenting distance traveled 
+                            counter at the top of the screen. If the player reaches the end, the "Level Complete" UI will show, and the player will be 
+                            redirected to the next level. 
                             <br /><br />
-                            Mysteria needed a pathing algorithm for enemies as well as friendly NPC's to follow the player, so I decided to
-                            impliment A* pathing. I used this pathing algorithm instead of a simple 'follow target' function I could have simply
-                            created myself because since the game was tile based, enemies often got stuck on objects and I wanted to limit
-                            players abusing this exploit. A* pathing proved to work very well for what I needed with minimal alterations.
+                            Major scrips were not nessessary in the creation of this game. The only scripts needed were in C#, including
+                            player movement, player automatic acceleration (allowing the block to move without player control), collisions to 
+                            restart or end the level, and when to display the UI. Although this game may seem symplistic, it was essential to 
+                            beginning my path in game development and the creation of larger games, such as Mysteria. 
                             <br /><br />
                         </p>
                     </div>

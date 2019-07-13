@@ -8,16 +8,16 @@ a {
     color: #aaa;
     font-weight: 200;
 }
+
 .navbar {
     background-color: #333;
     display: block;
     width: auto;
+    height: 60px;
 }
 .navContainer {
-    margin-right: auto;
-    margin-left: auto;
     display: block;
-    width: 300px;
+    width: auto;
     height: auto;
     text-align: center;
     float: right;

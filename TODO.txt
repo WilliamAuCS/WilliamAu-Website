@@ -2,6 +2,8 @@ All:
 Change header font
 Turn link word color to white
 Make sure it works on all size displays
+fix navbar from overlapping
+remove "William Au" when window gets too small
 
 Home:
 Complete Bio
@@ -20,4 +22,8 @@ Mysteria:
 Review
 
 Cube Runner: 
-Add description
+Review
+Add link to Mysteria at the end?
+
+My Website
+Add content
