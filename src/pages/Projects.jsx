@@ -9,7 +9,7 @@ class Projects extends Component {
     render() {
         return (
             <div>
-                <div className="projectBackground">
+                <div className="background"/>
                     <Navbar />
                     <Jumbotron title="My Projects" subtitle="Independent Projects" />
                     <div className="container">
@@ -62,7 +62,6 @@ class Projects extends Component {
                             </div>
                         </div>
                     </div>
-                </div>
                 <Footer />
             </div >
         );

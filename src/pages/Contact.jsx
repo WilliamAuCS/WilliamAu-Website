@@ -8,10 +8,10 @@ class Contact extends Component {
     render() {
         return (
             <div>
-                <div className="contactBackground">
+                <div className="background"/>
                     <Navbar />
                     <Jumbotron title="Contact" subtitle="Feel free to contact me!" />
-                    <div className="contact">
+                    <div className="container">
                         <h2>Contact</h2>
                         <p>
                             Feel free to contact me if you have any questions. Thanks!
@@ -29,7 +29,6 @@ class Contact extends Component {
                         </p>
                     </div>
                     <Footer />
-                </div>
             </div>
         );
     }

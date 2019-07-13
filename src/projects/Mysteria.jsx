@@ -8,7 +8,8 @@ class Mysteria extends Component {
     render() {
         return (
             <div>
-                <div className="background">
+                <div className="background"/>
+                <div className="projectContent">
                     <Navbar />
                     <Jumbotron title="Mysteria" subtitle="2018 - Current" />
                     <div className="leftPics">

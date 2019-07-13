@@ -8,7 +8,8 @@ class CubeRunner extends Component {
     render() {
         return (
             <div>
-                <div className="background">
+                <div className="background"/>
+                <div classname="projectContent">
                     <Navbar />
                     <Jumbotron title="Cube Runner" subtitle="2018" />
                     <div className="leftPics">
