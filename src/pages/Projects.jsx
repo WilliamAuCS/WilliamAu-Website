@@ -10,6 +10,7 @@ class Projects extends Component {
         return (
             <div>
                 <div className="background"/>
+                <div className="otherStuff">
                     <Navbar />
                     <Jumbotron title="My Projects" subtitle="Independent Projects" />
                     <div className="container">
@@ -51,7 +52,7 @@ class Projects extends Component {
                                 <img id="picPadding" src={require('../images/react-logo.png')} height="200" width="200" alt="My Website"
                                     title="I used the JavaScript library React to complete this website" align="left" />
                                 <p>
-                                    <Link to="/MyWebsite"><h2>This Website</h2></Link>
+                                    <Link><h2>This Website</h2></Link>
 
                                     This is the website you are currently looking at. I created this website using the JavaScript React library. Creating
                                     this website was a challenge at first, for it was the first time experience the front-end of programming, however the
@@ -62,8 +63,9 @@ class Projects extends Component {
                             </div>
                         </div>
                     </div>
-                <Footer />
-            </div >
+                    <Footer />
+                </div >
+            </div>
         );
     }
 }

@@ -1,6 +1,9 @@
 .sidebar {
-    margin-left: 20px;
+    margin-left: 140px;
+    display: block;
+    width: 250px;
     float: left;
+    overflow: hidden;
 }
 .pic {
     background-image: url(..\images\portrait.png);
@@ -13,6 +16,7 @@
     vertical-align: top;
     text-align: center;
     position: static;
+    margin-left: 10px;
 }
 @media screen and (max-width: 780px)
 {

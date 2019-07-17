@@ -9,8 +9,7 @@
     margin-left: auto;
     margin-right: auto;
     display: block;
-    padding-bottom: 160px;
-    border: 2px solid red;
+    padding-bottom: 0px;
 }
 .background {
     background-image: url("../images/portfolio background.jpg");
@@ -20,7 +19,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     position: fixed;
-    margin-bottom: 60px;
     margin-top: 0px;
     z-index: -10;
 }
@@ -29,16 +27,10 @@
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-bottom: 60px;
+    overflow: hidden;
+    padding-bottom: 60px;
     margin-top: 0px;
     float: center;
-}
-.cushBar {
-
-    display: block;
-    width: 100px;
-    height: 500px;
-    float: left;
 }
 @media screen and (max-width: 780px)
 {
