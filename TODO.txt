@@ -4,6 +4,7 @@ Turn link word color to white
 
 Home:
 Complete Bio
+Style profile picture with % instead of px. 
 Change profile picture
 Resize degree box to fit picture
 Fix resizing background issue

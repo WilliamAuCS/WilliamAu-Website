@@ -21,6 +21,10 @@
 @media screen and (max-width: 780px)
 {
     .sidebar {
+        float: center;
+        margin-left: 15%;
+    }
+    .info {
         display: none;
     }
 }

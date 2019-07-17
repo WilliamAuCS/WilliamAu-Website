@@ -10,6 +10,7 @@
     margin-right: auto;
     display: block;
     padding-bottom: 0px;
+    border: 2px solid green;
 }
 .background {
     background-image: url("../images/portfolio background.jpg");
@@ -34,7 +35,7 @@
 }
 @media screen and (max-width: 780px)
 {
-    .cushBar {
-        display: none;
+    .bio {
+        display: inline-block;
     }
 }
