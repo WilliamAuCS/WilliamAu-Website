@@ -24,7 +24,8 @@ class Home extends Component {
                                 With technology at its peak, great developers are on the rise. With multiple programming languages, libraries, 
                                 and frameworks at our desposal, we are able to create what people 20 years ago thought to be impossible.
                             <br /><br />
-                                My name William Au and I am a senior in Computer Science. I picked this major because not only do I love mathematics
+                                My name William Au and I am a senior in Computer Science. I enjoy working 
+                                I picked this major because not only do I love mathematics
                                 and science, but also solving problems not only analytically, but also in the most efficient way possible. 
                                 Programming is not only a fun pastime, but also a great way to make a difference, not only for yourself, 
                                 but also for others in this world. 
