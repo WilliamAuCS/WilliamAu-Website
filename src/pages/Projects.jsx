@@ -12,14 +12,14 @@ class Projects extends Component {
                 <div className="background"/>
                 <div className="otherStuff">
                     <Navbar />
-                    <Jumbotron title="My Projects" subtitle="Independent Projects" />
+                    <Jumbotron title="My Projects" subtitle="Project Spotlight" />
                     <div className="container">
                         <p className="overview">
                             <h1>Projects</h1>
-                            The projects listed below are projects completed independently from my course work. Many are projects completed
-                            in a team of two or more programmers, however there are also many completed myself. Below each project is a brief
+                            The projects listed below are a few of my favorite projects I have completed, or are still in progress. Many are projects completed
+                            in a team of two or more programmers, however there are also many I have completed myself. Below each project is a brief
                             description, including a screenshot of the actual project. If you wish to learn more, you may click on the project
-                                name and a more in-depth explanation will be given. <br />
+                                name and a more in-depth explanation will be displayed. <br />
                             (If you are not redirected, the page is still in progress and will be up soon!)
                             </p>
                         <div className="projectList">
@@ -27,7 +27,7 @@ class Projects extends Component {
                             <div className="projectFormat">
                                 <img id="picPadding" src={require('../images/Mysteria1.PNG')} height="200" width="200" alt="Mysteria"
                                     title="Picture of my in progress Mysteria RPG game" align="left" />
-                                <p>
+                                <p className="discription">
                                     <Link to="/Mysteria"><h2>Mysteria</h2></Link>
 
                                     This project was my first major game created using the Unity Engine. This game is an RPG style, tile based game
@@ -40,7 +40,7 @@ class Projects extends Component {
                             <div className="projectFormat">
                                 <img id="picPadding" src={require('../images/object_cube.png')} height="200" width="200" alt="Cube Runner"
                                     title="Picture of my first completed game" align="left" />
-                                <p>
+                                <p className="discription">
                                     <Link to="/Cuberunner"><h2>Cube Runner</h2></Link>
 
                                     This was my first Unity project. Starting off, I used many tutorials learning how to utilize the Unity rigid body
@@ -51,7 +51,7 @@ class Projects extends Component {
                             <div className="projectFormat">
                                 <img id="picPadding" src={require('../images/react-logo.png')} height="200" width="200" alt="My Website"
                                     title="I used the JavaScript library React to complete this website" align="left" />
-                                <p>
+                                <p className="discription">
                                     <Link><h2>This Website</h2></Link>
 
                                     This is the website you are currently looking at. I created this website using the JavaScript React library. Creating
@@ -61,6 +61,21 @@ class Projects extends Component {
                                     <a href="https://github.com/WilliamAuCS/WilliamAu-Website" target="_blank"> GitHub </a>
                                 </p>
                             </div>
+
+                            <div className="projectFormat">
+                                <img id="picPadding" src={require('../images/Mysteria1.PNG')} height="200" width="200" alt="Mysteria"
+                                    title="Picture of my in progress Mysteria RPG game" align="left" />
+                                <p className="discription">
+                                    <Link to="/Mysteria"><h2>First Database</h2></Link>
+
+                                    This project was completed for my 332 Database course. I was in a group with two other students and was one of
+                                    the most fun I've had completing a project. It was my first time using SQL, and learning the statements took a
+                                    good amount of research, however 
+                                    <br /><br />
+                                    <a href="https://github.com/WilliamAuCS/Mysteria" target="_blank"> GitHub </a>
+                                </p>
+                            </div>
+
                         </div>
                     </div>
                     <Footer />
