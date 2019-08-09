@@ -71,7 +71,8 @@ class Projects extends Component {
                                     this website was a challenge at first, for it was the first time experience the front-end of programming, however the
                                     concept quickly became familiar. This website will continue to be in development as I learn more about the React library.
                                     <br /><br />
-                                    <a href="https://github.com/WilliamAuCS/WilliamAu-Website" target="_blank"> GitHub </a>
+                                    <a href="https://github.com/WilliamAuCS/WilliamAu-Website" target="_blank"> GitHub (Pre-Deploy)</a>
+                                    <a href="https://github.com/WilliamAuCS/Website-Deploy" target="_blank"> GitHub (Deployed)</a>
                                 </p>
                             </div>
 
