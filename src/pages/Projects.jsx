@@ -38,6 +38,19 @@ class Projects extends Component {
                             </div>
 
                             <div className="projectFormat">
+                                <img id="picPadding" src={require('../images/mysql logo.png')} height="200" width="200" alt="mySQL logo"
+                                    title="My first database project" align="left" />
+                                <p className="discription">
+                                    <Link><h2>MySQL Database</h2></Link>
+
+                                    This project was completed for my 332 Database course. It was my first time creating a database, and really sparked
+                                    my interest in the field. I was in a team with two other students, and it soon became one of
+                                    the most fun I've had completing a project. 
+                                    <br /><br />
+                                </p>
+                            </div>
+
+                            <div className="projectFormat">
                                 <img id="picPadding" src={require('../images/object_cube.png')} height="200" width="200" alt="Cube Runner"
                                     title="Picture of my first completed game" align="left" />
                                 <p className="discription">
@@ -59,20 +72,6 @@ class Projects extends Component {
                                     concept quickly became familiar. This website will continue to be in development as I learn more about the React library.
                                     <br /><br />
                                     <a href="https://github.com/WilliamAuCS/WilliamAu-Website" target="_blank"> GitHub </a>
-                                </p>
-                            </div>
-
-                            <div className="projectFormat">
-                                <img id="picPadding" src={require('../images/Mysteria1.PNG')} height="200" width="200" alt="Mysteria"
-                                    title="Picture of my in progress Mysteria RPG game" align="left" />
-                                <p className="discription">
-                                    <Link to="/Mysteria"><h2>First Database</h2></Link>
-
-                                    This project was completed for my 332 Database course. I was in a group with two other students and was one of
-                                    the most fun I've had completing a project. It was my first time using SQL, and learning the statements took a
-                                    good amount of research, however 
-                                    <br /><br />
-                                    <a href="https://github.com/WilliamAuCS/Mysteria" target="_blank"> GitHub </a>
                                 </p>
                             </div>
 
