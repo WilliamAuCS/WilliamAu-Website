@@ -51,6 +51,19 @@ class Projects extends Component {
                             </div>
 
                             <div className="projectFormat">
+                                <img id="picPadding" src={require('../images/discord logo.png')} height="200" width="200" alt="mySQL logo"
+                                    title="My Discord bot" align="left" />
+                                <p className="discription">
+                                    <Link><h2>Discord Bot <h6>(In Progress)</h6></h2></Link>
+
+                                    After completing my Database and React Website projects, I decided to combine the two into a new project. I am using Discord.js and
+                                    SQL to create a Discord bot that not only responds to commands, but also implements its own game and currency for users. This 
+                                    information is stored and retreved in the SQL database. 
+                                    <br /><br />
+                                </p>
+                            </div>
+
+                            <div className="projectFormat">
                                 <img id="picPadding" src={require('../images/object_cube.png')} height="200" width="200" alt="Cube Runner"
                                     title="Picture of my first completed game" align="left" />
                                 <p className="discription">
@@ -71,7 +84,7 @@ class Projects extends Component {
                                     this website was a challenge at first, for it was the first time experience the front-end of programming, however the
                                     concept quickly became familiar. This website will continue to be in development as I learn more about the React library.
                                     <br /><br />
-                                    <a href="https://github.com/WilliamAuCS/WilliamAu-Website" target="_blank"> GitHub (Pre-Deploy)</a>
+                                    <a href="https://github.com/WilliamAuCS/WilliamAu-Website" target="_blank"> GitHub (Pre-Deploy)</a><br />
                                     <a href="https://github.com/WilliamAuCS/Website-Deploy" target="_blank"> GitHub (Deployed)</a>
                                 </p>
                             </div>
