@@ -7,9 +7,12 @@ Review
 Projects:
 Add Cube Runner onto github and add link
 Add more projects. 
+Remove horizontal scroll bars on mobile
 
 Contact: 
 Review
+Change picture
+Remove horizontal scroll bar on mobile
 
 Mysteria:
 Review
